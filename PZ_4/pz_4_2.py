@@ -15,3 +15,4 @@ S -= K
 K -= 1
 print()
 print("K = {0}, S = {1}".format(K,S))
+print('Murad')
