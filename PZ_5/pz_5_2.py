@@ -1,5 +1,3 @@
-import random
-
 def SortDec3(A,B,C):
     L = []
     if A < B:
@@ -13,16 +11,16 @@ def SortDec3(A,B,C):
     L.append(C)
     return L
 
-A = random.randrange(-10,10)
-B = random.randrange(-10,10)
-C = random.randrange(-10,10)
+A = int(input())
+B = int(input())
+C = int(input())
 print("Initial: {0}, {1}, {2}".format(A,B,C))
 A,B,C = SortDec3(A,B,C)
 print("Final: {0}, {1}, {2}".format(A,B,C))
 
-A = random.randrange(-10,10)
-B = random.randrange(-10,10)
-C = random.randrange(-10,10)
+A = int(input())
+B = int(input())
+C = int(input())
 print()
 print("Initial: {0}, {1}, {2}".format(A,B,C))
 A,B,C = SortDec3(A,B,C)
