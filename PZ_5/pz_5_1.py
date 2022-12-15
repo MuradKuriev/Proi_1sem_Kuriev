@@ -1,3 +1,4 @@
+#Составить функцию, которая выполнит суммирования числового ряда.
 numbers = (list(map(int,(input('Введите ряд чисел:')).split())))
 total = 0
 for number in numbers:
