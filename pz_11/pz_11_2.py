@@ -1,5 +1,5 @@
 # Читаем содержимое файла
-with open('sequence.txt', 'r') as f:
+with open('text18-12.txt', 'r') as f:
     content = f.read()
 
 # Выводим содержимое файла и количество пробельных символов
