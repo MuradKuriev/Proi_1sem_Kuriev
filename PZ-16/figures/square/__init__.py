@@ -1,0 +1,1 @@
+from figures.square.code import *

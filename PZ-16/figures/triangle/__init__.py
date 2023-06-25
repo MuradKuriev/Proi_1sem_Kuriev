@@ -1,0 +1,1 @@
+from figures.triangle.code import *
